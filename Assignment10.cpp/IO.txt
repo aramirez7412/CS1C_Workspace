@@ -1,0 +1,148 @@
+**************************************************
+* Programmed by : Anthony Ramirez
+* Student ID    : 369397
+* CS1C          :T/TH
+* ASSIGNMENT #10: Exceptions
+**************************************************
+0 - EXIT
+1 - ENQUEUE
+2 - DEQUEUE
+3 - IS FULL
+4 - IS EMPTY
+5 - OUTPUT LIST
+6 - OUTPUT FRONT
+Please enter a menu option: 5
+
+The list is empty!
+Inside empty catch code block!
+ Lets try that again!
+
+0 - EXIT
+1 - ENQUEUE
+2 - DEQUEUE
+3 - IS FULL
+4 - IS EMPTY
+5 - OUTPUT LIST
+6 - OUTPUT FRONT
+Please enter a menu option: 2
+
+The list is empty!
+Inside empty catch code block!
+ Lets try that again!
+
+0 - EXIT
+1 - ENQUEUE
+2 - DEQUEUE
+3 - IS FULL
+4 - IS EMPTY
+5 - OUTPUT LIST
+6 - OUTPUT FRONT
+Please enter a menu option: 1
+
+Please enter a number you would like to add: 15
+
+
+Adding 15 to the list.
+
+0 - EXIT
+1 - ENQUEUE
+2 - DEQUEUE
+3 - IS FULL
+4 - IS EMPTY
+5 - OUTPUT LIST
+6 - OUTPUT FRONT
+Please enter a menu option: 1
+
+Please enter a number you would like to add: 56
+
+Adding 56 to the list.
+
+0 - EXIT
+1 - ENQUEUE
+2 - DEQUEUE
+3 - IS FULL
+4 - IS EMPTY
+5 - OUTPUT LIST
+6 - OUTPUT FRONT
+Please enter a menu option: 5
+
+
+***Current Linked List***
+Data: 15
+Data: 56
+
+0 - EXIT
+1 - ENQUEUE
+2 - DEQUEUE
+3 - IS FULL
+4 - IS EMPTY
+5 - OUTPUT LIST
+6 - OUTPUT FRONT
+Please enter a menu option: 2
+
+
+Dequeuing 15
+
+0 - EXIT
+1 - ENQUEUE
+2 - DEQUEUE
+3 - IS FULL
+4 - IS EMPTY
+5 - OUTPUT LIST
+6 - OUTPUT FRONT
+Please enter a menu option: 5
+
+
+***Current Linked List***
+Data: 56
+
+0 - EXIT
+1 - ENQUEUE
+2 - DEQUEUE
+3 - IS FULL
+4 - IS EMPTY
+5 - OUTPUT LIST
+6 - OUTPUT FRONT
+Please enter a menu option: 2
+
+
+Dequeuing 56
+
+0 - EXIT
+1 - ENQUEUE
+2 - DEQUEUE
+3 - IS FULL
+4 - IS EMPTY
+5 - OUTPUT LIST
+6 - OUTPUT FRONT
+Please enter a menu option: 5
+
+The list is empty!
+Inside empty catch code block!
+ Lets try that again!
+
+0 - EXIT
+1 - ENQUEUE
+2 - DEQUEUE
+3 - IS FULL
+4 - IS EMPTY
+5 - OUTPUT LIST
+6 - OUTPUT FRONT
+Please enter a menu option: 6
+
+The list is empty!
+Inside empty catch code block!
+ Lets try that again!
+
+0 - EXIT
+1 - ENQUEUE
+2 - DEQUEUE
+3 - IS FULL
+4 - IS EMPTY
+5 - OUTPUT LIST
+6 - OUTPUT FRONT
+Please enter a menu option: 0
+
+
+
+Thank you for using my program!

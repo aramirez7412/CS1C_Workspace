@@ -1,0 +1,8 @@
+Please enter an integer greater than 10: 12
+The value of myInt is: 12
+
+Please enter another integer greater than 10: 5
+Assertion failed: myInt >10, file ..\main.cpp, line 27
+
+This application has requested the Runtime to terminate it in an unusual way.
+Please contact the application's support team for more information.

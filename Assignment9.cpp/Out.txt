@@ -1,0 +1,342 @@
+/**************************************************************************
+ * NAME     : Anthony Ramirez
+ * CLASS    : CS1C
+ * SECTION  : T/TH 6:00-8:50
+ * DATE     : 10/21/14
+ * ASSIGN #9: Templates
+ **************************************************************************/
+
+**********************************
+* Testing the List Class w/ char *
+**********************************
+
+Adding A to the list.
+
+Adding B to the list.
+
+Adding C to the list.
+
+Adding D to the list.
+
+Adding E to the list.
+
+Adding F to the list.
+
+***Current Linked List***
+Data: A
+Data: B
+Data: C
+Data: D
+Data: E
+Data: F
+
+Dequeuing A
+
+Dequeuing B
+
+Dequeuing C
+
+Dequeuing D
+
+***Current Linked List***
+Data: E
+Data: F
+
+Adding g to the list.
+
+Adding h to the list.
+
+Adding i to the list.
+
+Adding j to the list.
+
+Adding K to the list.
+
+***Current Linked List***
+Data: E
+Data: F
+Data: g
+Data: h
+Data: i
+Data: j
+Data: K
+
+Dequeuing E
+
+Dequeuing F
+
+Dequeuing g
+
+***Current Linked List***
+Data: h
+Data: i
+Data: j
+Data: K
+
+
+*********************************
+* Testing the List Class w/ int *
+*********************************
+
+Adding 1 to the list.
+
+Adding 2 to the list.
+
+Adding 3 to the list.
+
+Adding 4 to the list.
+
+Adding 5 to the list.
+
+Adding 6 to the list.
+
+***Current Linked List***
+Data: 1
+Data: 2
+Data: 3
+Data: 4
+Data: 5
+Data: 6
+
+Dequeuing 1
+
+Dequeuing 2
+
+Dequeuing 3
+
+Dequeuing 4
+
+***Current Linked List***
+Data: 5
+Data: 6
+
+Adding 7 to the list.
+
+Adding 8 to the list.
+
+Adding 9 to the list.
+
+Adding 10 to the list.
+
+Adding 11 to the list.
+
+***Current Linked List***
+Data: 5
+Data: 6
+Data: 7
+Data: 8
+Data: 9
+Data: 10
+Data: 11
+
+Dequeuing 5
+
+Dequeuing 6
+
+Dequeuing 7
+
+***Current Linked List***
+Data: 8
+Data: 9
+Data: 10
+Data: 11
+
+
+*********************************
+* Testing the List Class w/ int *
+*********************************
+
+Adding 1.5 to the list.
+
+Adding 1.6 to the list.
+
+Adding 1.7 to the list.
+
+Adding 2.5 to the list.
+
+Adding 2.89 to the list.
+
+Adding 2.456 to the list.
+
+***Current Linked List***
+Data: 1.5
+Data: 1.6
+Data: 1.7
+Data: 2.5
+Data: 2.89
+Data: 2.456
+
+Dequeuing 1.5
+
+Dequeuing 1.6
+
+Dequeuing 1.7
+
+Dequeuing 2.5
+
+***Current Linked List***
+Data: 2.89
+Data: 2.456
+
+Adding 11.4 to the list.
+
+Adding 12.4 to the list.
+
+Adding 13.6 to the list.
+
+Adding 17.96 to the list.
+
+Adding 178.6 to the list.
+
+***Current Linked List***
+Data: 2.89
+Data: 2.456
+Data: 11.4
+Data: 12.4
+Data: 13.6
+Data: 17.96
+Data: 178.6
+
+Dequeuing 2.89
+
+Dequeuing 2.456
+
+Dequeuing 11.4
+
+***Current Linked List***
+Data: 12.4
+Data: 13.6
+Data: 17.96
+Data: 178.6
+
+
+**********************************
+* Testing the List Class w/ long *
+**********************************
+
+Adding 560000 to the list.
+
+Adding 789456 to the list.
+
+Adding 123456 to the list.
+
+Adding 7896325 to the list.
+
+Adding 784142 to the list.
+
+Adding 369356 to the list.
+
+***Current Linked List***
+Data: 560000
+Data: 789456
+Data: 123456
+Data: 7896325
+Data: 784142
+Data: 369356
+
+Dequeuing 560000
+
+Dequeuing 789456
+
+Dequeuing 123456
+
+Dequeuing 7896325
+
+***Current Linked List***
+Data: 784142
+Data: 369356
+
+Adding 78965 to the list.
+
+Adding 56321 to the list.
+
+Adding 987654 to the list.
+
+Adding 654321 to the list.
+
+Adding 84785 to the list.
+
+***Current Linked List***
+Data: 784142
+Data: 369356
+Data: 78965
+Data: 56321
+Data: 987654
+Data: 654321
+Data: 84785
+
+Dequeuing 784142
+
+Dequeuing 369356
+
+Dequeuing 78965
+
+***Current Linked List***
+Data: 56321
+Data: 987654
+Data: 654321
+Data: 84785
+
+
+*****Checking multiple methods of the List Class*****
+
+
+
+***************************
+* Checking with char List *
+***************************
+
+
+Adding C to the list.
+
+Adding o to the list.
+
+Adding p to the list.
+
+Adding e to the list.
+
+**List has reached its max size**
+
+(isFull() method) Checking isFull method for charList
+
+List is not empty
+
+Testing clear method
+Clearing char list...
+
+***Clearing List***
+It is empty
+List is not full
+Checking isEmpty method for charList
+
+
+**************************
+* Checking with int List *
+**************************
+
+
+Adding 10 to the list.
+
+Adding 11 to the list.
+
+Adding 12 to the list.
+
+Adding 13 to the list.
+
+**List has reached its max size**
+
+Checking isFull method for charList
+
+List is not empty
+
+*****Testing clear method*****
+Clearing integer list...
+
+***Clearing List***
+
+List is not full
+It is empty
+
+
+Adding 1 to the list.
+Returning the front of the integer list: 1

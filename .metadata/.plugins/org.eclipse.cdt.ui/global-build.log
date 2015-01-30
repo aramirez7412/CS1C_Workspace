@@ -1,0 +1,273 @@
+12:19:51 **** Clean-only build of configuration Debug for project Assign8_Friends&Overloading.cpp ****
+rm -rf CheckCS1CId.d DateImplementation.d main.o StudentImplmentation.d CS1CImplementation.d StudentImplmentation.o DateImplementation.o Assign8_Friends&Overloading.cpp.exe CheckIDFunction.o MathStudentImplmentation.o OutputHeader.o CheckIDFunction.d MathStudentImplmentation.d CS1CImplementation.o OutputHeader.d CheckCS1CId.o main.d 
+12:19:58 **** Rebuild of configuration Debug for project Assign8_Friends&Overloading.cpp ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CS1CImplementation.o "..\\CS1CImplementation.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o StudentImplmentation.o "..\\StudentImplmentation.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DateImplementation.o "..\\DateImplementation.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o OutputHeader.o "..\\OutputHeader.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CheckCS1CId.o "..\\CheckCS1CId.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o MathStudentImplmentation.o "..\\MathStudentImplmentation.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CheckIDFunction.o "..\\CheckIDFunction.cpp" 
+g++ -o Assign8_Friends&Overloading.cpp.exe main.o StudentImplmentation.o OutputHeader.o MathStudentImplmentation.o DateImplementation.o CheckIDFunction.o CheckCS1CId.o CS1CImplementation.o 
+Info: Nothing to build for Assign8_Friends&Overloading.cpp
+Info: Nothing to build for Assign8_Friends&Overloading.cpp
+Info: Nothing to build for Assign8_Friends&Overloading.cpp
+14:49:51 **** Incremental Build of configuration Debug for project Assign8_Friends&Overloading.cpp ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CheckCS1CId.o "..\\CheckCS1CId.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CheckIDFunction.o "..\\CheckIDFunction.cpp" 
+g++ -o Assign8_Friends&Overloading.cpp.exe main.o StudentImplmentation.o OutputHeader.o MathStudentImplmentation.o DateImplementation.o CheckIDFunction.o CheckCS1CId.o CS1CImplementation.o 
+Info: Nothing to build for Assign8_Friends&Overloading.cpp
+14:51:52 **** Incremental Build of configuration Debug for project Assign8_Friends&Overloading.cpp ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CheckCS1CId.o "..\\CheckCS1CId.cpp" 
+g++ -o Assign8_Friends&Overloading.cpp.exe main.o StudentImplmentation.o OutputHeader.o MathStudentImplmentation.o DateImplementation.o CheckIDFunction.o CheckCS1CId.o CS1CImplementation.o 
+main.o(.text+0xd5b): In function `main':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../main.cpp:98: undefined reference to `CheckIdCS1C(CS1CStudent&, CS1CStudent&)'
+main.o(.text+0xdb3):E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../main.cpp:105: undefined reference to `CheckIdCS1C(CS1CStudent&, CS1CStudent&)'
+collect2: ld returned 1 exit status
+14:51:56 **** Incremental Build of configuration Debug for project Assign8_Friends&Overloading.cpp ****
+Info: Internal Builder is used for build
+g++ -o Assign8_Friends&Overloading.cpp.exe main.o StudentImplmentation.o OutputHeader.o MathStudentImplmentation.o DateImplementation.o CheckIDFunction.o CheckCS1CId.o CS1CImplementation.o 
+main.o(.text+0xd5b): In function `main':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../main.cpp:98: undefined reference to `CheckIdCS1C(CS1CStudent&, CS1CStudent&)'
+main.o(.text+0xdb3):E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../main.cpp:105: undefined reference to `CheckIdCS1C(CS1CStudent&, CS1CStudent&)'
+collect2: ld returned 1 exit status
+14:52:18 **** Incremental Build of configuration Debug for project Assign8_Friends&Overloading.cpp ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o Assign8_Friends&Overloading.cpp.exe main.o StudentImplmentation.o OutputHeader.o MathStudentImplmentation.o DateImplementation.o CheckIDFunction.o CheckCS1CId.o CS1CImplementation.o 
+Info: Nothing to build for Assign8_Friends&Overloading.cpp
+Info: Nothing to build for Assign8_Friends&Overloading.cpp
+14:52:53 **** Incremental Build of configuration Debug for project Assign8_Friends&Overloading.cpp ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o CS1CImplementation.o "..\\CS1CImplementation.cpp" 
+g++ -o Assign8_Friends&Overloading.cpp.exe main.o StudentImplmentation.o OutputHeader.o MathStudentImplmentation.o DateImplementation.o CheckIDFunction.o CheckCS1CId.o CS1CImplementation.o 
+Info: Nothing to build for Assign8_Friends&Overloading.cpp
+Info: Nothing to build for Assign8_Friends&Overloading.cpp
+17:23:37 **** Incremental Build of configuration Debug for project Assign8_Friends&Overloading.cpp ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o OutputHeader.o "..\\OutputHeader.cpp" 
+g++ -o Assign8_Friends&Overloading.cpp.exe main.o StudentImplmentation.o OutputHeader.o MathStudentImplmentation.o DateImplementation.o CheckIDFunction.o CheckCS1CId.o CS1CImplementation.o 
+main.o: In function `main':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../main.cpp:32: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../main.cpp:32: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../main.cpp:48: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../main.cpp:122: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../main.cpp:122: undefined reference to `_Unwind_SjLj_Unregister'
+StudentImplmentation.o: In function `ZN7StudentC2Ev':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:30: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:30: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:37: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:37: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:37: undefined reference to `_Unwind_SjLj_Unregister'
+StudentImplmentation.o: In function `ZN7StudentC1Ev':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:30: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:30: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:37: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:37: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:37: undefined reference to `_Unwind_SjLj_Unregister'
+StudentImplmentation.o: In function `ZN7StudentD2Ev':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:47: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:47: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:47: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:48: undefined reference to `_Unwind_SjLj_Unregister'
+StudentImplmentation.o: In function `ZN7StudentD1Ev':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:47: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:47: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:47: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:48: undefined reference to `_Unwind_SjLj_Unregister'
+StudentImplmentation.o: In function `ZN7StudentD0Ev':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:47: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:47: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:47: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:48: undefined reference to `_Unwind_SjLj_Unregister'
+StudentImplmentation.o: In function `ZN7StudentC2ESsSsSsltdc':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:66: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:66: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:67: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:67: undefined reference to `_Unwind_SjLj_Unregister'
+StudentImplmentation.o: In function `ZN7StudentC1ESsSsSsltdc':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:66: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:66: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:67: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:67: undefined reference to `_Unwind_SjLj_Unregister'
+StudentImplmentation.o: In function `ZN7Student6SetAllESsSsSsltdc':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:169: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:169: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:171: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:172: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:173: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:177: undefined reference to `_Unwind_SjLj_Unregister'
+StudentImplmentation.o: In function `ZN7Student16PropagateStudentEv':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:273: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:273: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:320: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:320: undefined reference to `_Unwind_SjLj_Unregister'
+StudentImplmentation.o: In function `ZNK7Student8PrintAllEv':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:333: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:333: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:337: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:339: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:342: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../StudentImplmentation.cpp:344: undefined reference to `_Unwind_SjLj_Unregister'
+MathStudentImplmentation.o: In function `ZN11MathStudentC2Ev':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:13: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:13: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:34: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:34: undefined reference to `_Unwind_SjLj_Unregister'
+MathStudentImplmentation.o: In function `ZN11MathStudentC1Ev':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:13: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:13: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:34: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:34: undefined reference to `_Unwind_SjLj_Unregister'
+MathStudentImplmentation.o: In function `ZN11MathStudentC2EPKcS1_S1_lSsSsSsltdciii':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:52: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:52: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:62: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:75: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:75: undefined reference to `_Unwind_SjLj_Unregister'
+MathStudentImplmentation.o: In function `ZN11MathStudentC1EPKcS1_S1_lSsSsSsltdciii':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:52: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:52: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:62: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:75: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:75: undefined reference to `_Unwind_SjLj_Unregister'
+MathStudentImplmentation.o: In function `ZN11MathStudentC2ERKS_':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:81: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:81: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:105: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:105: undefined reference to `_Unwind_SjLj_Unregister'
+MathStudentImplmentation.o: In function `ZN11MathStudentC1ERKS_':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:81: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:81: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:105: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:105: undefined reference to `_Unwind_SjLj_Unregister'
+MathStudentImplmentation.o: In function `ZN11MathStudentD2Ev':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:110: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:110: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:113: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:115: undefined reference to `_Unwind_SjLj_Unregister'
+MathStudentImplmentation.o: In function `ZN11MathStudentD1Ev':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:110: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:110: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:113: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:115: undefined reference to `_Unwind_SjLj_Unregister'
+MathStudentImplmentation.o: In function `ZN11MathStudentD0Ev':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:110: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:110: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:113: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:115: undefined reference to `_Unwind_SjLj_Unregister'
+MathStudentImplmentation.o: In function `ZN11MathStudent8CopyFromES_':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:147: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:147: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:163: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:164: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:165: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:170: undefined reference to `_Unwind_SjLj_Unregister'
+MathStudentImplmentation.o: In function `ZN11MathStudent10SetAllMathESsSsSsltdciiiPcS0_S0_l':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:193: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:193: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:194: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:195: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:196: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../MathStudentImplmentation.cpp:205: undefined reference to `_Unwind_SjLj_Unregister'
+DateImplementation.o: In function `ZN4DateC2Ev':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:22: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:22: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:23: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:23: undefined reference to `_Unwind_SjLj_Unregister'
+DateImplementation.o: In function `ZN4DateC1Ev':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:22: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:22: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:23: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:23: undefined reference to `_Unwind_SjLj_Unregister'
+DateImplementation.o: In function `ZN4DateC2Eiii':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:37: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:37: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:40: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:40: undefined reference to `_Unwind_SjLj_Unregister'
+DateImplementation.o: In function `ZN4DateC1Eiii':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:37: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:37: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:40: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:40: undefined reference to `_Unwind_SjLj_Unregister'
+DateImplementation.o: In function `ZN4Date6SetAllEiii':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:91: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:91: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:97: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:97: undefined reference to `_Unwind_SjLj_Unregister'
+DateImplementation.o: In function `ZN4Date7SetDateEv':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:109: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:109: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:114: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../DateImplementation.cpp:114: undefined reference to `_Unwind_SjLj_Unregister'
+CS1CImplementation.o: In function `ZNK11CS1CStudentplEi':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:19: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:19: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:27: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:27: undefined reference to `_Unwind_SjLj_Unregister'
+CS1CImplementation.o: In function `ZN11CS1CStudentC2Ev':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:38: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:38: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:43: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:43: undefined reference to `_Unwind_SjLj_Unregister'
+CS1CImplementation.o: In function `ZN11CS1CStudentC1Ev':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:38: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:38: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:43: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:43: undefined reference to `_Unwind_SjLj_Unregister'
+CS1CImplementation.o: In function `ZN11CS1CStudentC2ESsSsSsltdclciii':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:67: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:67: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:74: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:76: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:76: undefined reference to `_Unwind_SjLj_Unregister'
+CS1CImplementation.o: In function `ZN11CS1CStudentC1ESsSsSsltdclciii':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:67: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:67: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:74: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:76: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:76: undefined reference to `_Unwind_SjLj_Unregister'
+CS1CImplementation.o: In function `ZN11CS1CStudentD2Ev':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:81: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:81: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:81: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:82: undefined reference to `_Unwind_SjLj_Unregister'
+CS1CImplementation.o: In function `ZN11CS1CStudentD1Ev':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:81: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:81: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:81: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:82: undefined reference to `_Unwind_SjLj_Unregister'
+CS1CImplementation.o: In function `ZN11CS1CStudentD0Ev':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:81: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:81: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:81: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:82: undefined reference to `_Unwind_SjLj_Unregister'
+CS1CImplementation.o: In function `ZNK11CS1CStudent8PrintAllEv':
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:243: undefined reference to `__gxx_personality_sj0'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:243: undefined reference to `_Unwind_SjLj_Register'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:262: undefined reference to `_Unwind_SjLj_Resume'
+E:/CS1C Workspace/Assign8_Friends&Overloading.cpp/Debug/../CS1CImplementation.cpp:262: undefined reference to `_Unwind_SjLj_Unregister'
+collect2.exe: error: ld returned 1 exit status
+17:39:08 **** Incremental Build of configuration Debug for project Assign8_Friends&Overloading.cpp ****
+Info: Internal Builder is used for build
+g++ -o Assign8_Friends&Overloading.cpp.exe main.o StudentImplmentation.o OutputHeader.o MathStudentImplmentation.o DateImplementation.o CheckIDFunction.o CheckCS1CId.o CS1CImplementation.o 
+17:39:09 **** Rebuild of configuration Debug for project Assignment9.cpp ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o OutputHeader.o "..\\OutputHeader.cpp" 
+g++ -o Assignment9.cpp.exe main.o OutputHeader.o 
+Info: Nothing to build for Assignment9.cpp
+Info: Nothing to build for Assign8_Friends&Overloading.cpp
+Info: Nothing to build for Assignment9.cpp
+Info: Nothing to build for Assign8_Friends&Overloading.cpp
+17:41:23 **** Incremental Build of configuration Debug for project Assignment9.cpp ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o OutputHeader.o "..\\OutputHeader.cpp" 
+g++ -o Assignment9.cpp.exe main.o OutputHeader.o 
+Info: Nothing to build for Assign8_Friends&Overloading.cpp
+Info: Nothing to build for Assignment9.cpp
